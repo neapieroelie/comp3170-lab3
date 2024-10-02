@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(28, 28, 28);
+}
+
+.App {
+  padding: 10px;
+  max-width: 60%;
+  margin: auto;
+}
+
+.App > h1 {
+  text-align: center;
+}
+
+.story {
+  position: relative;
+  padding: 1em;
+  background-color: rgb(45, 45, 45);
+  margin: 1em;
+}
+
+.story span.delete {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  line-height: 1;
+  top: -1em;
+  right: -1em;
+  background: rgb(28, 28, 28);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.story-heading {
+  font-size: x-large;
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+}
+
+.story-heading:hover {
+  cursor: pointer;
+}
+
+.story-author {
+  display: block;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.story-image {
+  max-width: 20%;
+}
+
+.story-image img {
+  width: 100%;
+}
+
+.story p {
+  color: rgb(214, 214, 214)
+}
+
+h1 {
+  color: rgb(224, 150, 212)
+}
